@@ -24,7 +24,9 @@ if(!$row) {
 }
 
 if($row['password'] == md5($_POST['password'])) {
-	
+	session_start();
+	$_SESSION['status'] = 'OK';
+	header('Location: jabatan.php');
 } else {
 	$stmt->closeCursor();
     returnToMainPage("Password mismatch");

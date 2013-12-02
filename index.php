@@ -6,7 +6,7 @@
 	<body>
 		<h2>Sistem Pendukung Keputusan</h2>
 		<h4>Promosi Jabatan Karyawan</h4>
-		<form action="login.php" method="post">
+		<form action="session.php" method="post">
 			<fieldset>
 				<?php
 					if(isset($_GET['error']))
