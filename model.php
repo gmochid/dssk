@@ -5,7 +5,7 @@
 	</head>
 	<body>
 		<h4>Pilih Model dan Berikan Bobot di setiap Kriteria Penilaian</h4>
-		<form method="post" action="model.php">
+		<form method="post" action="result.php">
 		<input type="hidden" value='<?php echo $_POST["jabatan"]; ?>' name='jabatan'>
 			<fieldset>
 				<legend>Model</legend>
